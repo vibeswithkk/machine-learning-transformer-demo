@@ -11,4 +11,11 @@ setup(
         'numpy',
         'scikit-learn'
     ],
+    extras_require={
+        'test': [
+            'pytest',
+            'pytest-cov',
+            'hypothesis'
+        ]
+    }
 )
